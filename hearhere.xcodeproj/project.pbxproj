@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBBAEDC421D35B870007BB61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBAEDC321D35B870007BB61 /* AppDelegate.swift */; };
+		EBBAEDC621D35B870007BB61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBAEDC521D35B870007BB61 /* ViewController.swift */; };
+		EBBAEDC921D35B870007BB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBAEDC721D35B870007BB61 /* Main.storyboard */; };
+		EBBAEDCB21D35B8C0007BB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBAEDCA21D35B8C0007BB61 /* Assets.xcassets */; };
+		EBBAEDCE21D35B8C0007BB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBAEDCC21D35B8C0007BB61 /* LaunchScreen.storyboard */; };
+		EBBAEDD921D35B8C0007BB61 /* hearhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBAEDD821D35B8C0007BB61 /* hearhereTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBBAEDD521D35B8C0007BB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBAEDB821D35B870007BB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBAEDBF21D35B870007BB61;
+			remoteInfo = hearhere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBBAEDC021D35B870007BB61 /* hearhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBAEDC321D35B870007BB61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBBAEDC521D35B870007BB61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBBAEDC821D35B870007BB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBBAEDCA21D35B8C0007BB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBBAEDCD21D35B8C0007BB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBBAEDCF21D35B8C0007BB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBAEDD421D35B8C0007BB61 /* hearhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hearhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBAEDD821D35B8C0007BB61 /* hearhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hearhereTests.swift; sourceTree = "<group>"; };
+		EBBAEDDA21D35B8C0007BB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBBAEDBD21D35B870007BB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBAEDD121D35B8C0007BB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBBAEDB721D35B870007BB61 = {
+			isa = PBXGroup;
+			children = (
+				EBBAEDC221D35B870007BB61 /* hearhere */,
+				EBBAEDD721D35B8C0007BB61 /* hearhereTests */,
+				EBBAEDC121D35B870007BB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBBAEDC121D35B870007BB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAEDC021D35B870007BB61 /* hearhere.app */,
+				EBBAEDD421D35B8C0007BB61 /* hearhereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBBAEDC221D35B870007BB61 /* hearhere */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAEDC321D35B870007BB61 /* AppDelegate.swift */,
+				EBBAEDC521D35B870007BB61 /* ViewController.swift */,
+				EBBAEDC721D35B870007BB61 /* Main.storyboard */,
+				EBBAEDCA21D35B8C0007BB61 /* Assets.xcassets */,
+				EBBAEDCC21D35B8C0007BB61 /* LaunchScreen.storyboard */,
+				EBBAEDCF21D35B8C0007BB61 /* Info.plist */,
+			);
+			path = hearhere;
+			sourceTree = "<group>";
+		};
+		EBBAEDD721D35B8C0007BB61 /* hearhereTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAEDD821D35B8C0007BB61 /* hearhereTests.swift */,
+				EBBAEDDA21D35B8C0007BB61 /* Info.plist */,
+			);
+			path = hearhereTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBBAEDBF21D35B870007BB61 /* hearhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBAEDDD21D35B8C0007BB61 /* Build configuration list for PBXNativeTarget "hearhere" */;
+			buildPhases = (
+				EBBAEDBC21D35B870007BB61 /* Sources */,
+				EBBAEDBD21D35B870007BB61 /* Frameworks */,
+				EBBAEDBE21D35B870007BB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hearhere;
+			productName = hearhere;
+			productReference = EBBAEDC021D35B870007BB61 /* hearhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBBAEDD321D35B8C0007BB61 /* hearhereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBAEDE021D35B8C0007BB61 /* Build configuration list for PBXNativeTarget "hearhereTests" */;
+			buildPhases = (
+				EBBAEDD021D35B8C0007BB61 /* Sources */,
+				EBBAEDD121D35B8C0007BB61 /* Frameworks */,
+				EBBAEDD221D35B8C0007BB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBBAEDD621D35B8C0007BB61 /* PBXTargetDependency */,
+			);
+			name = hearhereTests;
+			productName = hearhereTests;
+			productReference = EBBAEDD421D35B8C0007BB61 /* hearhereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBBAEDB821D35B870007BB61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Pedro Sanchez";
+				TargetAttributes = {
+					EBBAEDBF21D35B870007BB61 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EBBAEDD321D35B8C0007BB61 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EBBAEDBF21D35B870007BB61;
+					};
+				};
+			};
+			buildConfigurationList = EBBAEDBB21D35B870007BB61 /* Build configuration list for PBXProject "hearhere" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBBAEDB721D35B870007BB61;
+			productRefGroup = EBBAEDC121D35B870007BB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBBAEDBF21D35B870007BB61 /* hearhere */,
+				EBBAEDD321D35B8C0007BB61 /* hearhereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBBAEDBE21D35B870007BB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBAEDCE21D35B8C0007BB61 /* LaunchScreen.storyboard in Resources */,
+				EBBAEDCB21D35B8C0007BB61 /* Assets.xcassets in Resources */,
+				EBBAEDC921D35B870007BB61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBAEDD221D35B8C0007BB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBBAEDBC21D35B870007BB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBAEDC621D35B870007BB61 /* ViewController.swift in Sources */,
+				EBBAEDC421D35B870007BB61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBAEDD021D35B8C0007BB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBAEDD921D35B8C0007BB61 /* hearhereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBBAEDD621D35B8C0007BB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBAEDBF21D35B870007BB61 /* hearhere */;
+			targetProxy = EBBAEDD521D35B8C0007BB61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBBAEDC721D35B870007BB61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBAEDC821D35B870007BB61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBBAEDCC21D35B8C0007BB61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBAEDCD21D35B8C0007BB61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBBAEDDB21D35B8C0007BB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBBAEDDC21D35B8C0007BB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBBAEDDE21D35B8C0007BB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hearhere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hearhere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBBAEDDF21D35B8C0007BB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hearhere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hearhere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBBAEDE121D35B8C0007BB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hearhereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hearhereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hearhere.app/hearhere";
+			};
+			name = Debug;
+		};
+		EBBAEDE221D35B8C0007BB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hearhereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hearhereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hearhere.app/hearhere";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBBAEDBB21D35B870007BB61 /* Build configuration list for PBXProject "hearhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBAEDDB21D35B8C0007BB61 /* Debug */,
+				EBBAEDDC21D35B8C0007BB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBAEDDD21D35B8C0007BB61 /* Build configuration list for PBXNativeTarget "hearhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBAEDDE21D35B8C0007BB61 /* Debug */,
+				EBBAEDDF21D35B8C0007BB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBAEDE021D35B8C0007BB61 /* Build configuration list for PBXNativeTarget "hearhereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBAEDE121D35B8C0007BB61 /* Debug */,
+				EBBAEDE221D35B8C0007BB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBBAEDB821D35B870007BB61 /* Project object */;
+}
